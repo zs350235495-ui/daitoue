@@ -1,0 +1,18 @@
+{
+  "name": "baiyueguangjc-homes",
+  "version": "1.0.0",
+  "description": "白月光 Cloud 官网与 SEO 专栏博客",
+  "private": true,
+  "scripts": {
+    "build": "node update_all_sitemaps.js",
+    "generate": "node generate_articles.js",
+    "submit:indexnow": "node submit-indexnow.js"
+  },
+  "keywords": [
+    "seo",
+    "indexnow",
+    "sitemap"
+  ],
+  "author": "",
+  "license": "ISC"
+}
